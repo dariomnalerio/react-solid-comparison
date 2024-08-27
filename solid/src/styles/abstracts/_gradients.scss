@@ -1,0 +1,8 @@
+@use "colors" as *;
+
+$linearPrimarySecondary: linear-gradient($primary, $secondary);
+$linearPrimaryAccent: linear-gradient($primary, $accent);
+$linearSecondaryAccent: linear-gradient($secondary, $accent);
+$radialPrimarySecondary: radial-gradient($primary, $secondary);
+$radialPrimaryAccent: radial-gradient($primary, $accent);
+$radialSecondaryAccent: radial-gradient($secondary, $accent);
